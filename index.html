@@ -94,22 +94,22 @@
   <div class="countdown-container" role="timer" aria-label="Countdown timer"  data-aos="fade-up">
     <div class="start-in">NEXT MATCHDAY</div>
     <div class="time-segment">
-      <span id="days" class="time-value">1</span>
+      <span id="days" class="time-value">00</span>
       <span class="time-label">days</span>
     </div>
     <div class="colon">:</div>
     <div class="time-segment">
-      <span id="hours" class="time-value">7</span>
+      <span id="hours" class="time-value">00</span>
       <span class="time-label">hour</span>
     </div>
     <div class="colon">:</div>
     <div class="time-segment">
-      <span id="minutes" class="time-value">56</span>
+      <span id="minutes" class="time-value">00</span>
       <span class="time-label">mins</span>
     </div>
     <div class="colon">:</div>
     <div class="time-segment">
-      <span id="seconds" class="time-value">30</span>
+      <span id="seconds" class="time-value">00</span>
       <span class="time-label">secs</span>
     </div>
   </div>
@@ -663,9 +663,9 @@
   const now = new Date();
   const countdownTarget = new Date(now.getTime() + 
     (0 * 24 * 60 * 60 * 1000) + 
-    (2 * 60 * 60 * 1000) + 
-    (10 * 60 * 1000) + 
-    (30 * 1000)
+    (0 * 60 * 60 * 1000) + 
+    (0 * 60 * 1000) + 
+    (0 * 1000)
   );
 
   function updateCountdown() {
