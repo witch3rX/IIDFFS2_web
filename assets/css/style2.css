@@ -319,6 +319,16 @@ margin-bottom: 30px;
     margin-bottom: 30px;
 
   }
+.match-container2 {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 100%;
+    margin-bottom: 30px;
+
+  }
   .team2 {
     flex-direction: column;
   }
